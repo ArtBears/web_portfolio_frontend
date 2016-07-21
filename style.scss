@@ -110,10 +110,19 @@ body{
     border-bottom: none;
     /* offset-x | offset-y | blur-radius | color */
     box-shadow: 6px 5px 5px #979797;
+    -webkit-transition: box-shadow .5s;
+    -moz-transition: box-shadow .5s;
+    -o-transition: box-shadow .5s;
+    transition: box-shadow .5s;
 
     p{
       text-align: justify;
       font-size: 1.6em;
+    }
+
+    &:hover{
+      box-shadow: 6px 5px 5px teal;
+      cursor: pointer;
     }
   }
 

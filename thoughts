@@ -8,6 +8,8 @@ Overall:
   I want to use as little javascript as possible in order to keep effects the same
   when the user has javascript turned off. 
 
+  Maybe I can make the navigation bar a different color on each page. This will get rid 
+
 About:
 
   I want to do something dramatically different with the about page. I would prefer

@@ -62,10 +62,17 @@ body {
     border-right: none;
     border-bottom: none;
     /* offset-x | offset-y | blur-radius | color */
-    box-shadow: 6px 5px 5px #979797; }
+    box-shadow: 6px 5px 5px #979797;
+    -webkit-transition: box-shadow .5s;
+    -moz-transition: box-shadow .5s;
+    -o-transition: box-shadow .5s;
+    transition: box-shadow .5s; }
     #web_styles .blog_preview p {
       text-align: justify;
       font-size: 1.6em; }
+    #web_styles .blog_preview:hover {
+      box-shadow: 6px 5px 5px teal;
+      cursor: pointer; }
   #web_styles .blog_title {
     margin-bottom: 0.7em;
     text-align: center; }

@@ -1,0 +1,28 @@
+Style and Structure:
+  Site:
+    - Add Logo(Brand) to navigation bar
+    - Add a Footer?
+    - Add a link back to the top of the page
+  About:
+    - Create Page
+    - Consider different styling (text) on blog_preview
+  Blog:
+    - Add Recursive 
+    - Add Filters to bottom left
+
+
+
+  Projects:
+    - Create Page
+  Resume:
+    - Create Page
+
+Scripts:
+  Site:
+  About:
+  Project:
+  Blog:
+    - Add Text change animation when hovering over blog_preview.
+    - Create on click transition Between blog_preview and coresponding blog_post
+    - {REACT} Load blog_posts and load them as blog_previews. Only load actual post content on click through an ajax request.
+  Resume:
