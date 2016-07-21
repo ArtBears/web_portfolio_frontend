@@ -1,90 +1,140 @@
+@font-face{
+  font-family: 'DidactGothic';
+  src: url(fonts/DidactGothic.ttf);
+}
+
 html{
   background: cyan;
 }
 
 body{
   background: green;
-
 }
 
-// Namespace
+// Namespace 
+// KEEP CUSTOM STYLINGS IN THIS TAG
 #web_styles{
-.blue{
-  background: blue !important;
+  font-family: 'DidactGothic';
+  .blue{
+    background: blue !important;
 
-} 
+  } 
 
-.green{
-  background: green;
-}
-
-// Navigation Bar 
-nav{
-  
-  position: relative;
-  background: #871847;
-  
-  &:after{
-    width: 100%;
-    background: yellow;
+  .green{
+    background: green;
   }
-}
 
-.navbar{
-  border-radius: 0px !important;
-  margin-bottom: 0px !important;
-} // .navbar: bootstrap override 
-
-
-.nav>li>a:focus, .nav>li>a:hover{
-  background: #871847 !important;
-} // .nav: bootstrap override 
-
-a{ 
-    color: #f8f8f8 !important;
-  &:focus, &:hover{
-    color: #f8f8f8 !important;
-  }
-}  // a: bootstrap override
-.nav.navbar-nav {
-  ul{
-    li{
-      position: relative;
-      height: 100%;
-    }
-  }
-}
-
-.navbar-nav{
-  li{
-    border-top: 2.25px solid transparent;
-    min-width: 112px;
-    text-align: center;
-    -webkit-transition: border-top 1s;
-    -moz-transition: border-top 1s;
-    -o-transition: border-top 1s;
-    transition: border-top 1s;
-    a{
-      padding: 30px 30px;
-
-    }
-    &:hover{
-      border-top: 2.25px solid white;
-      
+  // Navigation Bar 
+  nav{
     
+    position: relative;
+    background: #871847;
+    
+    &:after{
+      width: 100%;
+      background: yellow;
     }
   }
-}
 
-// End of Navigation bar
+  .navbar{
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+  } // .navbar: bootstrap override 
 
-/* Main Content Wrapper - Borders - Spacing */
 
-.content_border{
-  border-width: 0px 1px; 
-  border-style: solid;
-  border-color: #979797;
-  padding-top: 4em;
-}
+  .nav>li>a:focus, .nav>li>a:hover{
+    background: #871847 !important;
+  } // .nav: bootstrap override 
+
+  a{ 
+      color: #f8f8f8 !important;
+    &:focus, &:hover{
+      color: #f8f8f8 !important;
+    }
+  }  // a: bootstrap override
+  .nav.navbar-nav {
+    ul{
+      li{
+        position: relative;
+        height: 100%;
+      }
+    }
+  }
+
+  .navbar-nav{
+    li{
+      border-top: 2.25px solid transparent;
+      min-width: 112px;
+      text-align: center;
+      -webkit-transition: border-top 1s;
+      -moz-transition: border-top 1s;
+      -o-transition: border-top 1s;
+      transition: border-top 1s;
+      a{
+        padding: 30px 30px;
+
+      }
+      &:hover{
+        border-top: 2.25px solid white;
+        
+      
+      }
+    }
+  }
+
+  /* Main Content Wrapper - Borders - Spacing */
+
+  .content_border{
+    border-width: 0px 1px; 
+    border-style: solid;
+    border-color: #979797;
+    padding-top: 4em;
+  }
+
+
+  /* Blog Post Styles  */
+
+  .blog_post{
+    background: #D8D8D8;
+    min-height: 20em; // change this
+    margin-bottom: 2em;
+    padding-left: 0;
+    padding-right: 0; 
+    // border: 1px solid #979797;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    // border-top-left-radius: 10px;
+    // border-top-right-radius: 10px;
+    // border-bottom-left-radius: 9px;
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 6px 5px 5px #979797;
+
+    p{
+      text-align: justify;
+      font-size: 1.6em;
+    }
+  }
+
+  .blog_title{
+    text-decoration: underline;
+    margin-bottom: 0.7em;
+  }
+
+  .blog_post_group_image{
+    height: 80px;
+    border-bottom: 1px solid black;
+    // border-top-left-radius: 9px;
+    // border-top-right-radius: 8px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .blog_post_common{
+    background-image: url(../images/london.png);
+  }
+
+
+
 
 } // #WebStyles: Namespace wrapper

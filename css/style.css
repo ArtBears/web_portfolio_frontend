@@ -1,3 +1,6 @@
+@font-face {
+  font-family: 'DidactGothic';
+  src: url(fonts/DidactGothic.ttf); }
 html {
   background: cyan; }
 
@@ -5,7 +8,9 @@ body {
   background: green; }
 
 #web_styles {
-  /* Main Content Wrapper - Borders - Spacing */ }
+  font-family: 'DidactGothic';
+  /* Main Content Wrapper - Borders - Spacing */
+  /* Blog Post Styles  */ }
   #web_styles .blue {
     background: blue !important; }
   #web_styles .green {
@@ -45,3 +50,27 @@ body {
     border-style: solid;
     border-color: #979797;
     padding-top: 4em; }
+  #web_styles .blog_post {
+    background: #D8D8D8;
+    min-height: 20em;
+    margin-bottom: 2em;
+    padding-left: 0;
+    padding-right: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 6px 5px 5px #979797; }
+    #web_styles .blog_post p {
+      text-align: justify;
+      font-size: 1.6em; }
+  #web_styles .blog_title {
+    text-decoration: underline;
+    margin-bottom: 0.7em; }
+  #web_styles .blog_post_group_image {
+    height: 80px;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0; }
+  #web_styles .blog_post_common {
+    background-image: url(../images/london.png); }

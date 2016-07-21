@@ -1,7 +1,7 @@
 "images": {
   "blog_entry":{
-    "height":,
-    "width":,
+    "height": 80,
+    "width": 740,
     "type":["misc", "tech", "gaming"]
   }
 }

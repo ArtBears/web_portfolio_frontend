@@ -1,0 +1,46 @@
+Pages:
+  About -> Main Page
+  Projects
+  Blog
+  Resume
+
+Overall:
+  I want to use as little javascript as possible in order to keep effects the same
+  when the user has javascript turned off. 
+
+About:
+
+  I want to do something dramatically different with the about page. I would prefer
+    for this to be the main page. It will be the page with the logo that pops out a 
+    lot more that the rest of the site. The actual layout is mocked in the sketch 
+    project. It should be super simple but able to stand on it's own in terms of 
+    technique.
+
+    For example: 
+      - When the page is entered, It will state my name using a typing affect. 
+      - Main Logo
+        - {On Scroll} the main logo will position itself to the left of the page.
+        - {On Click}  the main logo will transition into/out-of the site navigation bar
+          - This feature is Exclusive to the About page
+
+Projects: 
+  
+  * Maybe this should be a page of my interactions on social media??? My quora answers,
+      Tweets, Blog posts, Medium articles, Github pushes *
+
+  I'm not even sure if this page will exist. At least not off the bat. It's purpose is
+    pretty self explanitory
+
+
+Blog: 
+  
+  One of the pages I'm more excited about. This page should contain some of my musings.
+    I'm still not sure how i'll add posts to this page. I'd rather not do it manually but
+    I'll wait until the actual implementation in rails to decide this. I'll most likely 
+    create a page or url that only I know and tie that into my blog list/cms.
+
+Resume: 
+
+  I can get really creative with this. I'd mainly use it as a place to post where I've 
+    worked and what I've done, and education. I could also create a printer friendly 
+    option using css. Omit all of the super unimportant information and styling. 
