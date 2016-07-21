@@ -45,12 +45,14 @@ body {
       padding: 30px 30px; }
     #web_styles .navbar-nav li:hover {
       border-top: 2.25px solid white; }
+  #web_styles .page_nav {
+    padding-right: 5em; }
   #web_styles .content_border {
     border-width: 0px 1px;
     border-style: solid;
     border-color: #979797;
     padding-top: 4em; }
-  #web_styles .blog_post {
+  #web_styles .blog_preview {
     background: #D8D8D8;
     min-height: 20em;
     margin-bottom: 2em;
@@ -61,16 +63,16 @@ body {
     border-bottom: none;
     /* offset-x | offset-y | blur-radius | color */
     box-shadow: 6px 5px 5px #979797; }
-    #web_styles .blog_post p {
+    #web_styles .blog_preview p {
       text-align: justify;
       font-size: 1.6em; }
   #web_styles .blog_title {
-    text-decoration: underline;
-    margin-bottom: 0.7em; }
-  #web_styles .blog_post_group_image {
+    margin-bottom: 0.7em;
+    text-align: center; }
+  #web_styles .blog_preview_group_image {
     height: 80px;
     border-bottom: 1px solid black;
     margin: 0;
     padding: 0; }
-  #web_styles .blog_post_common {
+  #web_styles .blog_preview_common {
     background-image: url(../images/london.png); }

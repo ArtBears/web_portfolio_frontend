@@ -82,6 +82,10 @@ body{
     }
   }
 
+  .page_nav{
+    padding-right: 5em;
+  }
+
   /* Main Content Wrapper - Borders - Spacing */
 
   .content_border{
@@ -94,7 +98,7 @@ body{
 
   /* Blog Post Styles  */
 
-  .blog_post{
+  .blog_preview{
     background: #D8D8D8;
     min-height: 20em; // change this
     margin-bottom: 2em;
@@ -104,9 +108,6 @@ body{
     border-left: none;
     border-right: none;
     border-bottom: none;
-    // border-top-left-radius: 10px;
-    // border-top-right-radius: 10px;
-    // border-bottom-left-radius: 9px;
     /* offset-x | offset-y | blur-radius | color */
     box-shadow: 6px 5px 5px #979797;
 
@@ -117,20 +118,18 @@ body{
   }
 
   .blog_title{
-    text-decoration: underline;
     margin-bottom: 0.7em;
+    text-align: center;
   }
 
-  .blog_post_group_image{
+  .blog_preview_group_image{
     height: 80px;
     border-bottom: 1px solid black;
-    // border-top-left-radius: 9px;
-    // border-top-right-radius: 8px;
     margin: 0;
     padding: 0;
   }
 
-  .blog_post_common{
+  .blog_preview_common{
     background-image: url(../images/london.png);
   }
 

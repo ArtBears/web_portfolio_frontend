@@ -33,11 +33,20 @@ Projects:
 
 
 Blog: 
+  (Recursive_Era)
   
+  Categories:
+    Misc
+    Tech
+    Code
+
   One of the pages I'm more excited about. This page should contain some of my musings.
     I'm still not sure how i'll add posts to this page. I'd rather not do it manually but
     I'll wait until the actual implementation in rails to decide this. I'll most likely 
     create a page or url that only I know and tie that into my blog list/cms.
+
+  Heres an idea: 
+    I've made the blog fields a lot smaller. They will now only show blog titles and the classification of blog type. When you hover over the blog field, It should give a synpopsis of the Blog post in smaller Text and a "Click for more prompt."
 
 Resume: 
 
