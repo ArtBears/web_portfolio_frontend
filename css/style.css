@@ -7,6 +7,16 @@ html {
 body {
   background: green; }
 
+/* Generic Styles */
+.no-padding {
+  padding: 0 0 !important; }
+
+.no-margin {
+  margin: 0 0 !important; }
+
+/* Namespace 
+
+   KEEP CUSTOM STYLINGS IN THIS TAG */
 #web_styles {
   font-family: 'DidactGothic';
   /* Main Content Wrapper - Borders - Spacing */
@@ -25,7 +35,7 @@ body {
     border-radius: 0px !important;
     margin-bottom: 0px !important; }
   #web_styles .nav > li > a:focus, #web_styles .nav > li > a:hover {
-    background: #871847 !important; }
+    background: #871847; }
   #web_styles a {
     color: #f8f8f8 !important; }
     #web_styles a:focus, #web_styles a:hover {
@@ -43,10 +53,21 @@ body {
     transition: border-top 1s; }
     #web_styles .navbar-nav li a {
       padding: 30px 30px; }
-    #web_styles .navbar-nav li:hover {
-      border-top: 2.25px solid white; }
+  #web_styles .navbar-right li:hover {
+    border-top: 2.25px solid white; }
   #web_styles .page_nav {
     padding-right: 5em; }
+  #web_styles .nav-logo a.clearfix {
+    padding: 10px 30px; }
+  #web_styles .nav-logo:hover {
+    border-top: 2.25px solid transparent; }
+  #web_styles .nav-logo .logo-img {
+    background: white;
+    border-radius: 100%;
+    padding: 10px; }
+    #web_styles .nav-logo .logo-img img {
+      height: 50px;
+      width: 50px; }
   #web_styles .content_border {
     border-width: 0px 1px;
     border-style: solid;

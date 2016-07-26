@@ -10,9 +10,18 @@ html{
 body{
   background: green;
 }
+/* Generic Styles */
+.no-padding{
+  padding: 0 0 !important;
+}
+.no-margin{
+  margin: 0 0 !important; 
+}
 
-// Namespace 
-// KEEP CUSTOM STYLINGS IN THIS TAG
+
+/* Namespace 
+
+   KEEP CUSTOM STYLINGS IN THIS TAG */
 #web_styles{
   font-family: 'DidactGothic';
   .blue{
@@ -43,7 +52,7 @@ body{
 
 
   .nav>li>a:focus, .nav>li>a:hover{
-    background: #871847 !important;
+    background: #871847;
   } // .nav: bootstrap override 
 
   a{ 
@@ -75,15 +84,41 @@ body{
 
       }
       &:hover{
-        border-top: 2.25px solid white;
+        
         
       
       }
     }
   }
-
+  .navbar-right{
+    li{
+      &:hover{
+        border-top: 2.25px solid white;
+      }
+    }
+  }
   .page_nav{
     padding-right: 5em;
+  }
+
+  .nav-logo{
+    a.clearfix{
+      padding: 10px 30px;
+
+    }
+    &:hover{
+      border-top: 2.25px solid transparent;
+    }
+    .logo-img{
+      background: white;      
+      border-radius: 100%;
+      padding: 10px;
+      img{
+        height: 50px;
+        width: 50px;
+      }
+    }
+
   }
 
   /* Main Content Wrapper - Borders - Spacing */
